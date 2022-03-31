@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 18%;
+    max-width: 1280px;
+    background-color: rgb(240, 239, 239);
+    font-family: "Poppins", sans-serif;
+}
+
+h1{
+    margin: 0;
+    font-weight: 400;
+}
+h2{
+    margin: 0;
+    font-weight: 400;
+    /* display: inline-block;  */
+}
+
+.box{
+     background: #fff;
+     width: 50rem;
+     padding: 3rem;
+     margin: 1rem auto;
+     border-radius: 0.5rem;
+     border:5px purple solid  ;
+    }  
+.header{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    
+} 
+
+.header-left{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.first-name{
+    font-weight: 400;
+    margin: 0;
+}
+
+.last-name{
+    font-weight: 200;
+    margin: 0;
+}
+
+.header-right{
+    width: 100%;
+    display: grid;
+    justify-items:end;
+}
+
+.header-right p{
+    display: inline;
+}
+
+.icon{
+    color: #000 ;
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.grey{
+    background: purple;
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}
+
+table{
+    border: 3px solid purple;
+    margin: 1rem 0;
+    width: 50%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td, th{
+      border: 1px solid purple;
+      padding:0 ;
+}
+
